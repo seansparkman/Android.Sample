@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FFImageLoading.Views.ImageViewAsync
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/ProfileImage" />
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/Title" />
+    <TextView
+        android:text="City State"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/SubTitle"/>
+    <TextView
+        android:text="00/00/0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BirthDate"
+        android:layout_marginLeft="6dp"/>
+    <Button
+        android:text="Call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CallButton" />
+    <Button
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailButton" />
+</LinearLayout>
